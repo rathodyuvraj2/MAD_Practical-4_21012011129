@@ -37,7 +37,8 @@
                     android:layout_weight="0.3"
                     android:text="Enter full name" />
                 <EditText
-                    android:layout_width="wrap_content"
+                    android:layout_width="70dp"
+                    android:inputType="text"
                     android:layout_weight="0.3"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
@@ -53,8 +54,9 @@
                     android:layout_weight="0.3"
                     android:text="Phone Number" />
                 <EditText
-                    android:layout_width="wrap_content"
+                    android:layout_width="70dp"
                     android:layout_weight="0.3"
+                    android:inputType="number"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
 
@@ -69,8 +71,9 @@
                     android:layout_weight="0.3"
                     android:text="City" />
                 <EditText
-                    android:layout_width="wrap_content"
+                    android:layout_width="70dp"
                     android:layout_weight="0.3"
+                    android:inputType="text"
                     android:layout_height="wrap_content"/>
             </LinearLayout> <LinearLayout
             android:layout_width="match_parent"
@@ -83,7 +86,7 @@
                 android:layout_weight="0.3"
                 android:text="Email" />
             <EditText
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_weight="0.3"
                 android:inputType="textEmailAddress"
                 android:layout_height="wrap_content"/>
@@ -99,7 +102,7 @@
                 android:layout_weight="0.3"
                 android:text="Password" />
             <EditText
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_weight="0.3"
                 android:inputType="textPassword"
                 android:layout_height="wrap_content"/>
@@ -116,7 +119,7 @@
                 android:layout_weight="0.3"
                 android:text="Confirm Password" />
             <EditText
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_weight="0.3"
                 android:inputType="textPassword"
                 android:layout_height="wrap_content"/>
@@ -137,4 +140,30 @@
         android:layout_height="wrap_content"
         android:text="Register"/>
 </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do not have an account?"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:text="LOGIN"
+            android:id="@+id/button"
+            android:textColor="	#AA336A"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
 </LinearLayout>
